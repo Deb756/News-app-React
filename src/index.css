@@ -5,9 +5,35 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* background-color: #072e33; */
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+#brand{
+  font-family: monospace !important;
+  font-weight: 900 !important;
+  color: #2e8b57a8 !important;
+  font-size: 23px;
+}
+
+
+@media only screen and (max-width: 768px)
+{
+    #cardId
+    {
+      /* background-color: red !important; */
+      width: 20rem !important;
+    }
+}
+@media only screen and (max-width: 400px)
+{
+    #cardId
+    {
+      /* background-color: red !important; */
+      width: 18rem !important;
+    }
 }
